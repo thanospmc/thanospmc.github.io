@@ -1,0 +1,141 @@
+site_name: Thanos Poulos
+site_url: https://thanospoulos.org/
+#repo_url: "https://github.com/thanospmc/thanospmc.github.io/"
+repo_name: "thanospmc/thanospmc.github.io"
+exclude_docs: drafts/
+#not_in_nav: |
+#  notes/
+#  tips-for-writing-*
+
+
+nav:
+  - Home: index.md
+  #- Credits: credits.md
+  #- Posts:
+  #  - 2023:
+  #    # - posts/tips-for-writing-good-python-cli-libraries.md
+
+  #- Projects:
+  #  - Showcase Grid: projects.md
+  #  - Projects:
+  #    - projects/aria2p.md
+
+  #- Writing:
+  #  - Showcase Grid: writing.md
+  #  - Writing:
+  #    - showcase/aria2p.md
+
+theme:
+  name: material
+  font:
+    text: Fira Sans
+    code: Roboto Mono
+  custom_dir: docs/overrides
+  icon:
+    logo: material/all-inclusive
+  favicon: assets/images/all-inclusive.png
+  features:
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - navigation.footer
+  - navigation.indexes
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - toc.follow
+  palette:
+      - scheme: default
+        primary: white
+        accent: purple
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+      - scheme: slate
+        primary: black
+        accent: lime
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to light mode
+
+#extra_css:
+#  - assets/css/extra.css
+
+#extra_javascript:
+#  - assets/js/index.js 
+#  - assets/js/mathjax.js
+#  - https://polyfill.io/v3/polyfill.min.js?features=es6
+#  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/thanospmc
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/thanospoulos
+  - icon: fontawesome/brands/linkedin
+    link: https://linkedin.com/in/thanospoulos/
+  - icon: fontawesome/solid/paper-plane
+    link: mailto:<thanos@poulos.org>
+    name: Email - thanos@poulos.org
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Ελληνικά
+      link: /el/
+      lang: el
+    - name: Español
+      link: /es/
+      lang: es
+  #generator: false
+
+markdown_extensions:
+- admonition
+- attr_list
+- footnotes
+- md_in_html
+- meta
+- pymdownx.blocks.admonition
+- pymdownx.blocks.html
+- pymdownx.blocks.tab
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.magiclink
+- pymdownx.snippets:
+    check_paths: true
+    base_path: [docs/snippets, "."]
+- pymdownx.highlight
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tabbed:
+    alternate_style: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+- pymdownx.tasklist:
+    custom_checkbox: true
+- toc:
+    permalink: "¤"
+
+plugins:
+- search
+
+# - redirects:
+    #redirect_maps:
+      # mkdocstrings
+      # mkdocstrings.md: https://mkdocstrings.github.io/
+copyright: |
+  &copy; 2024 <a href="https://thanospoulos.org" target="_blank"  rel="noopener">Thanos Poulos</a>
