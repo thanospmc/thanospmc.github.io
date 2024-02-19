@@ -20,10 +20,17 @@ nav:
   #  - Projects:
   #    - projects/aria2p.md
 
-  #- Writing:
+  - Talks: talks.md
+  #  - Showcase Grid: talks.md
+  
+  - Publications: publications.md
+  #  - Showcase Grid: publications.md
+  
+  - Writing: writing.md
   #  - Showcase Grid: writing.md
-  #  - Writing:
   #    - showcase/aria2p.md
+  
+  
 
 theme:
   name: material
@@ -76,25 +83,28 @@ theme:
 
 extra:
   social:
-  - icon: fontawesome/brands/github
-    link: https://github.com/thanospmc
-  - icon: fontawesome/brands/twitter
-    link: https://twitter.com/thanospoulos
-  - icon: fontawesome/brands/linkedin
-    link: https://linkedin.com/in/thanospoulos/
   - icon: fontawesome/solid/paper-plane
     link: mailto:<thanos@poulos.org>
     name: Email - thanos@poulos.org
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Ελληνικά
-      link: /el/
-      lang: el
-    - name: Español
-      link: /es/
-      lang: es
+  - icon: fontawesome/brands/linkedin
+    link: https://linkedin.com/in/thanospoulos/
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/thanospoulos
+  - icon: fontawesome/brands/github
+    link: https://github.com/thanospmc
+  
+  
+  
+  #alternate:
+  #  - name: English
+  #    link: /en/ 
+  #    lang: en
+  #  - name: Ελληνικά
+  #    link: /el/
+  #    lang: el
+  #  - name: Español
+  #    link: /es/
+  #    lang: es
   #generator: false
 
 markdown_extensions:
