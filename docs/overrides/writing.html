@@ -11,10 +11,9 @@
 <tr>
   {% for project in row %}
   <td>
-    <p><strong><a href="/writing/{{ project.tag }}">{{ project.name }}</a></strong></p>
-    <p>{{ project.customer }}</p>
+    <p><strong><a href="/assets/pdfs/{{ project.file }}">{{ project.name }}</a></strong></p>
     <p>{{ project.type }}</p>
-    <a href="/writing/{{ project.tag }}"><img class="hover-grow" src="/assets/images/{{ project.image }}"/></a>
+    <a href="/assets/pdfs/{{ project.file }}"><img class="hover-grow" src="/assets/images/{{ project.image }}"/></a>
   </td>
   {% endfor %}
 </tr>
