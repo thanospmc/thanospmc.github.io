@@ -16,17 +16,17 @@ projects:
 
   - name: Efficient Prediction and Analysis of the Noise Radiated by an Electric Powertrain
     year: 2022 - International Styrian Noise, Vibration and Harshness Conference
-    image: workflow_manager_ISNVH.png
+    image: workflow_manager_ISNVH.PNG
     file: workflow-manager-isnvh.pdf
 
   - name: Auralization of road noise CAE simulation results for interactive sound quality evaluations
     year: 2022 - Noise-Con 2022
-    image: noise_con_auralization.png
+    image: noise_con_auralization.PNG
     file: auralization-noise-con.pdf
 
   - name: Tire test stand measurements for blocked forces identification and tire noise auralization
     year: 2022 - Noise-Con 2022
-    image: noise_con_blocked_forces.png
+    image: noise_con_blocked_forces.PNG
     file: blocked-forces-noise-con.pdf
 
   #- name: Simulation of Alpha Cabin reverberant room to estimate absorption coefficient under diffuse sound field
@@ -46,31 +46,31 @@ projects:
 
   - name: A machine learning-based methodology for computational aeroacous-tics predictions of multi-propeller drones
     year: 2021 - Internoise 2021
-    image: drone_internoise.png
+    image: drone_internoise.PNG
     file: drone-internoise.pdf
 
   - name: Computational noise level predictions of small multi-rotor unmanned aircraft systems at different payload conditions
     year: 2021 - DICUAM 2021
-    image: drone_dicuam.png
+    image: drone_dicuam.PNG
     file: drone-dicuam.pdf
 
   - name: Acoustic Model Reduction for the Design of Acoustic Treatments
     year: 2021 - SAE Noise and Vibration Conference 2021
-    image: firewall_sae.png
+    image: firewall_sae.PNG
     file: firewall-sae.pdf
   
   - name: Performance Evaluation of Eastman’s Saflex® E Series Acoustic Interlayer
     year: 2021 - SAE Noise and Vibration Conference 2021
-    image: eastman_sae.png
+    image: eastman_sae.PNG
     file: glass-sae.pdf
   
   - name: Broadband noise prediction of stochastic sources based on the linearized Euler equations
     year: 2018 - Internoise 2018
-    image: sngr_internoise.png
+    image: sngr_internoise.PNG
     file: sngr-internoise.pdf
 
   - name: Multi-Disciplinary Multi-Point Robust Design Optimization of a Turbocharger Impeller
     year: 2017 - EUROGEN 2017
-    image: eurogen.png
+    image: eurogen.PNG
     file: eurogen.pdf
 ---
