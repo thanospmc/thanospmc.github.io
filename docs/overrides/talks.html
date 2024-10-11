@@ -11,7 +11,7 @@
 <tr>
   {% for project in row %}
   <td>
-    <p><strong><a href="/talks/{{ project.tag }}">{{ project.name }}</a></strong></p>
+    <p><strong><a href="{{ project.url }}">{{ project.name }}</a></strong></p>
     <p>{{ project.year }}</p>
     <a href="{{ project.url }}"><img class="hover-grow" src="/assets/images/{{ project.image }}"/></a>
   </td>
